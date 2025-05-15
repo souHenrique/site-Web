@@ -1,9 +1,6 @@
 body{
     margin: 0px;
 }
-main{
-    margin: 20px;
-}
 h1{
     text-align: center;
 }
@@ -26,4 +23,31 @@ h1{
 }
 .barra-nav li{
     float: left;
+}
+
+.home-section{
+    display: flex;
+    height: 700px;
+}
+.home-style{
+    flex: 1;
+    background-image: url(imagens/banner-idoso-tela-inicial.jpg);
+    background-position: left;
+    background-size: cover;
+}
+.home-style2{
+    flex: 0.6;
+    background-color: rgb(63, 199, 63);
+}
+#titulo2-home{
+    color: white;
+    font-size: 60px;
+    text-align: start;
+    margin-left: 10px;
+}
+#titulo3-home{
+    color: white;
+    font-size: 30px;
+    text-align: start;
+    margin-left: 10px;
 }
