@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+main{
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+.barra-nav ul{
+    list-style-type: none;
+    background-color: rgb(44, 172, 44);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.barra-nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.barra-nav a:hover{
+    background-color: rgb(36, 138, 36);
+}
+.barra-nav li{
+    float: left;
+}
