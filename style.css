@@ -72,14 +72,14 @@ hr{
     background-position: auto;
 }
 
-#titulo2-home{
+.home-style h2{
     color: #0EB39E;
     font-size: 55px;
     text-align: start;
     margin: 10px;
     padding-top: 100px;
 }
-#titulo3-home{
+.home-style h3{
     color: #0EB39E;
     font-size: 25px;
     text-align: start;
@@ -92,7 +92,7 @@ hr{
     height: 500px;
     background-color: #EEEEEE;
 }
-#titulo2-sobre-nos{
+.sobre-nos-section h2{
     font-family: OpenSans-fonte;
     color: white;
     font-size: 50px;
@@ -112,7 +112,7 @@ hr{
     display: flex;
     overflow: auto;
 }
-#titulo2-servicos{
+.servicos-section h2{
     font-family: OpenSans-fonte;
     color: white;
     font-size: 50px;
@@ -131,6 +131,46 @@ hr{
     padding: 20px;
     float: right;
 }
-#img-servicos{
+.img-servicos-style img{
     box-shadow: 7px 7px 7px #1fd8a480, -4px -5px 7px #1fd8a47e;
 }
+
+.blog-section{
+    background-color: #EEEEEE;
+    overflow: auto;
+}
+#titulo2-blog{
+    font-family: OpenSans-fonte;
+    color: white;
+    font-size: 50px;
+    background-color: #0EB39E;
+    padding: 30px;
+    text-align: center;
+}
+.artigos-blog{
+    display: flex;
+}
+.artigos-blog h3{
+    font-family: OpenSans-fonte;
+    color: white;
+    font-size: 25px;
+    background-color: #1FD8A4;
+    padding: 30px;
+    margin-right: 30px;
+}
+.artigos-blog ul{
+    list-style-type: square;
+    color: #11c08e;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: Roboto-fonte;
+}
+.artigos-blog a{
+    color: #0EB39E;
+    text-decoration: none;
+}
+.artigos-blog a:hover{
+    color: #4cd8c5;
+}
+
+.videos-blog
