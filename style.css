@@ -218,3 +218,34 @@ hr{
     margin-top: 60px;
     margin-left: 20px;
 }
+
+.depoimentos-section{
+    background-color: #EEEEEE;
+    overflow: auto;
+    height: 500px;
+    display: flex;
+}
+.depoimentos-section h2{
+    font-family: OpenSans-fonte;
+    color: white;
+    font-size: 40px;
+    background-color: #0EB39E;
+    padding: 30px;
+    min-width: 250px;
+    max-width: 250px;
+}
+.depoimentos-style{
+    font-family: Roboto-fonte;
+}
+.depoimentos-style h3{
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #11c08e;
+}
+.depoimentos-style p{
+    margin-bottom: 50px;
+    margin-inline: 20px;
+    font-size: 17px;
+    color: #11c08e;
+}
