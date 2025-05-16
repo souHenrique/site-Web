@@ -88,6 +88,7 @@ hr{
 }
 
 .sobre-nos-section{
+    overflow: auto;
     height: 500px;
     background-color: #EEEEEE;
 }
@@ -107,8 +108,9 @@ hr{
 }
 
 .servicos-section{
-    height: auto;
     background-color: #EEEEEE;
+    display: flex;
+    overflow: auto;
 }
 #titulo2-servicos{
     font-family: OpenSans-fonte;
@@ -123,11 +125,12 @@ hr{
     margin: 10px;
     padding: 30px;
     color: #0EB39E;
+    height: 500px;
 }
 .img-servicos-style{
     padding: 20px;
-
+    float: right;
 }
 #img-servicos{
-    box-shadow: 4px 5px 7px #1FD8A4;
+    box-shadow: 7px 7px 7px #1fd8a480, -4px -5px 7px #1fd8a47e;
 }
