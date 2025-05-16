@@ -157,6 +157,9 @@ hr{
     background-color: #1FD8A4;
     padding: 30px;
     margin-right: 30px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 40px;
 }
 .artigos-blog ul{
     list-style-type: square;
@@ -173,4 +176,45 @@ hr{
     color: #4cd8c5;
 }
 
-.videos-blog
+.videos-blog{
+    display: flex;
+}
+.videos-blog h3{
+    font-family: OpenSans-fonte;
+    color: white;
+    background-color: #1FD8A4;
+    font-size: 25px;
+    padding: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 110px;
+}
+.videos-blog iframe{
+    margin-top: 60px;
+    margin-left: 15px;
+    background-color: #1FD8A4;
+}
+
+.clinica-blog{
+    display: flex;
+    height: 300px;
+}
+.clinica-blog h3{
+    font-family: OpenSans-fonte;
+    color: white;
+    font-size: 25px;
+    background-color: #1FD8A4;
+    padding: 30px;
+    margin-right: 43px;
+    margin-top: 110px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 40px;
+}
+.clinica-blog img{
+    border: solid #1FD8A4;
+    margin-top: 60px;
+    margin-left: 20px;
+}
