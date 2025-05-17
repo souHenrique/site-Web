@@ -118,6 +118,8 @@ hr{
     font-size: 50px;
     background-color: #0EB39E;
     padding: 50px;
+    min-width: 250px;
+    max-width: 250px;
 }
 .servicos-style{
     font-family: Roboto-fonte;
@@ -252,7 +254,8 @@ hr{
 
 .agendamento-section{
     background-color: #EEEEEE;
-    height: 500px;
+    height: 620px;
+    overflow: auto;
 }
 .agendamento-section h2{
     font-family: OpenSans-fonte;
@@ -261,6 +264,52 @@ hr{
     background-color: #0EB39E;
     padding: 50px;
 }
-.agendamento-style fieldset{
-    height: 330px;
+.agendamento-style{
+    margin: 20px;
+    font-family: Roboto-fonte;
+    color: #0EB39E;
+}
+.agendamento-style legend{
+    font-size: 25px;
+}
+.agendamento-style label{
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.agendamento-style input{
+    border: 1px solid #11c08e;
+    padding: 8px;
+    width: 400px;
+    height: 20px;
+    font-size: 16px;
+    font-family: Roboto-fonte;
+    outline-color: #0EB39E;
+    border-radius: 5px;
+}
+.agendamento-style textarea:hover, .agendamento-style input:hover{
+    border: 1px solid #7ee4c7;
+}
+
+.agendamento-style textarea{
+    border: 1px solid #11c08e;
+    max-width: 600px;
+    min-width: 416px;
+    min-height: 100px;
+    outline-color: #0EB39E;
+    border-radius: 5px;
+}
+.agendamento-style button{
+    color: white;
+    border: 1px solid #0EB39E;
+    font-size: 16px;
+    font-family: Roboto-fonte;
+    background-color: #11c08e;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+}
+.agendamento-style button:hover{
+    background-color: #4ecca8;
 }
