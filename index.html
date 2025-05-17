@@ -107,34 +107,33 @@
             </div>
         </section>
         <hr>
-        <section>
-            <div id="agendamento"></div>
+        <section class="agendamento-section" id="agendamento">
             <h2>Agendamento</h2>
-            <form action=".">
-                <fieldset>
-                    <legend>Informações do paciente</legend>
-                    <br>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" required name="nome" placeholder="Digite o seu nome...">
-                    <br>
-                        <label for="telefone">Número:</label>
-                        <input type="tel" id="telefone" required name="telefone" maxlength="11" placeholder="(xx) xxxxx-xxxx">
-                    <br>
-                        <label for="email" id="email">Email:</label>
-                        <input type="text" id="email" required name="email" placeholder="Digite o seu email...">
-                    <br>
-                        <label for="data">Data que deseja agendar:</label>
-                        <input type="date" id="data" required name="data">
-                    <br>
-                        <label for="comentario">Descreva brevemente o seu problema:</label>
+            <div class="agendamento-style">
+                <form action=".">
+                    <fieldset id="teste">
+                        <legend>Informações do paciente</legend>
                         <br>
-                        <textarea name="comentario" id="comentario" required rows="4" cols="40"></textarea>
-                        <button>Enviar</button>
-                </fieldset>
-            </form>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" required name="nome" placeholder="Digite o seu nome...">
+                        <br>
+                            <label for="telefone">Número:</label>
+                            <input type="tel" id="telefone" required name="telefone" maxlength="11" placeholder="(xx) xxxxx-xxxx">
+                        <br>
+                            <label for="email" id="email">Email:</label>
+                            <input type="text" id="email" required name="email" placeholder="Digite o seu email...">
+                        <br>
+                            <label for="data">Data que deseja agendar:</label>
+                            <input type="date" id="data" required name="data">
+                        <br>
+                            <label for="comentario">Descreva brevemente o seu problema:</label>
+                            <br>
+                            <textarea name="comentario" id="comentario" required rows="4" cols="40"></textarea>
+                            <button>Enviar</button>
+                    </fieldset>
+                </form>
+            </div>
         </section>
-        <br>
-
     </main>
 
     <footer>

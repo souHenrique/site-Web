@@ -249,3 +249,18 @@ hr{
     font-size: 17px;
     color: #11c08e;
 }
+
+.agendamento-section{
+    background-color: #EEEEEE;
+    height: 500px;
+}
+.agendamento-section h2{
+    font-family: OpenSans-fonte;
+    color: white;
+    font-size: 50px;
+    background-color: #0EB39E;
+    padding: 50px;
+}
+.agendamento-style fieldset{
+    height: 330px;
+}
