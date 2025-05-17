@@ -110,23 +110,26 @@
         <section class="agendamento-section" id="agendamento">
             <h2>Agendamento</h2>
             <div class="agendamento-style">
-                <form action=".">
-                    <b><legend>Informações do paciente</legend>
-                    <br>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" placeholder="Digite o seu nome..." required>
-                    <br>
-                        <label for="telefone">Número:</label>
-                        <input type="tel" id="telefone" name="telefone" maxlength="11" placeholder="(xx) xxxxx-xxxx" required>
-                    <br>
-                        <label for="email" id="email">Email:</label>
-                        <input type="text" id="email" name="email" placeholder="Digite o seu email..." required>
-                    <br>
-                        <label for="comentario">Descreva brevemente o seu problema:</label>
-                        <textarea name="comentario" id="comentario" rows="4" cols="40" required></textarea></b>
-                    <br>
-                        <button>Enviar</button>
-                </form>
+                <div class="agendamento-style-forms">
+                    <form action=".">
+                        <b><legend>Informações do paciente</legend>
+                        <br>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome..." required>
+                        <br>
+                            <label for="telefone">Número:</label>
+                            <input type="tel" id="telefone" name="telefone" maxlength="15" placeholder="(xx) xxxxx-xxxx" pattern="^\(\d{2}\) \d{4,5}-\d{4}$" required>
+                        <br>
+                            <label for="email" id="email">Email:</label>
+                            <input type="text" id="email" name="email" placeholder="Digite o seu email..." required>
+                        <br>
+                            <label for="comentario">Descreva brevemente o seu problema:</label>
+                            <textarea name="comentario" id="comentario" required></textarea></b>
+                        <br>
+                            <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="agendamento-style-img"></div>
             </div>
         </section>
     </main>

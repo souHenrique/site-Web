@@ -60,6 +60,7 @@ hr{
     display: flex;
     height: 750px;
     font-family: OpenSans-fonte;
+    overflow: auto;
 }
 .home-style{
     flex: 1.3;
@@ -69,7 +70,6 @@ hr{
     flex: 2;
     background-image: url(imagens/banner-idoso-tela-inicial.jpg);
     background-size: cover;
-    background-position: auto;
 }
 
 .home-style h2{
@@ -254,7 +254,7 @@ hr{
 
 .agendamento-section{
     background-color: #EEEEEE;
-    height: 620px;
+    height: 680px;
     overflow: auto;
 }
 .agendamento-section h2{
@@ -268,6 +268,9 @@ hr{
     margin: 20px;
     font-family: Roboto-fonte;
     color: #0EB39E;
+    padding-left: 2rem;
+    gap: 3rem;
+    display: flex;
 }
 .agendamento-style legend{
     font-size: 25px;
@@ -275,14 +278,14 @@ hr{
 .agendamento-style label{
     display: block;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .agendamento-style input{
     border: 1px solid #11c08e;
     padding: 8px;
     width: 400px;
     height: 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Roboto-fonte;
     outline-color: #0EB39E;
     border-radius: 5px;
@@ -299,7 +302,7 @@ hr{
     outline-color: #0EB39E;
     border-radius: 5px;
 }
-.agendamento-style button{
+.agendamento-style button[type="submit"]{
     color: white;
     border: 1px solid #0EB39E;
     font-size: 16px;
@@ -309,7 +312,19 @@ hr{
     margin-top: 20px;
     padding: 10px;
     width: 100px;
+    cursor: pointer;
 }
 .agendamento-style button:hover{
     background-color: #4ecca8;
+}
+.agendamento-style-forms{
+    flex: 1;
+}
+.agendamento-style-img{
+    flex: 2;
+    background-image: url(imagens/idosos-fisio-agendamento.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 6px solid #0EB39E;
+    box-shadow: 2px 3px 8px #0EB39E;
 }
