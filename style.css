@@ -358,9 +358,22 @@ hr{
     margin: 20px;
 }
 .contatos p{
+    font-size: 20px;
     margin-bottom: 30px;
     margin-left: 50px;
 }
 .contatos a{
-    margin-left: 50px;
+    color: #0EB39E;
+    text-decoration: none;
+}
+.contatos a:hover{
+    color: #4cd8c5;
+}
+.footer-copyright{
+    background-color: #11c08e;
+    font-size: 14px;
+    font-family: Roboto-fonte;
+    color: white;
+    padding: 13px;
+    text-align: center;
 }
