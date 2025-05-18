@@ -23,14 +23,17 @@ hr{
 .header-style{
     background-color: #0EB39E;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
-#titulo-header{
+.header-style h1{
     font-size: 40px;
-    text-align: center;
     color: white;
     font-family: OpenSans-fonte;
     margin: 10px;
     padding: 10px;
+    flex: 1;
+    margin-left: 40%;
 }
 
 .barra-nav ul{
@@ -48,6 +51,7 @@ hr{
     padding: 15px;
     display: block;
     text-align: center;
+    font-size: 20px;
 }
 .barra-nav a:hover{
     background-color: #11c08e;
@@ -89,7 +93,7 @@ hr{
 
 .sobre-nos-section{
     overflow: auto;
-    height: 500px;
+    height: 550px;
     background-color: #EEEEEE;
 }
 .sobre-nos-section h2{
@@ -99,12 +103,15 @@ hr{
     background-color: #0EB39E;
     padding: 50px;
 }
+
 .sobre-nos-style{
     font-family: Roboto-fonte;
-    font-size: 16px;
-    margin: 10px;
-    padding: 30px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 40px;
     color: #0EB39E;
+    display: flex;
+    border: 1px solid;
 }
 
 .servicos-section{
@@ -121,6 +128,7 @@ hr{
     min-width: 250px;
     max-width: 250px;
 }
+
 .servicos-style{
     font-family: Roboto-fonte;
     font-size: 20px;
@@ -167,7 +175,7 @@ hr{
     list-style-type: square;
     color: #11c08e;
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: Roboto-fonte;
 }
 .artigos-blog a{
@@ -327,4 +335,32 @@ hr{
     background-position: center;
     border: 6px solid #0EB39E;
     box-shadow: 2px 3px 8px #0EB39E;
+}
+.contato-style{
+    display: flex;
+    height: 400px;
+    background-color: #EEEEEE;
+    overflow: auto;
+    font-family: Roboto-fonte;
+}
+.contato-style h2{
+    font-family: OpenSans-fonte;
+    color: white;
+    font-size: 40px;
+    background-color: #0EB39E;
+    padding: 30px;
+    min-width: 250px;
+    max-width: 250px;
+}
+.contato-style h3{
+    font-size: 25px;
+    color: #11c08e;
+    margin: 20px;
+}
+.contatos p{
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.contatos a{
+    margin-left: 50px;
 }
