@@ -96,14 +96,13 @@ hr{
     height: 550px;
     background-color: #EEEEEE;
 }
-.sobre-nos-section h2{
+.sobre-nos-titulo2{
     font-family: OpenSans-fonte;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     background-color: #0EB39E;
     padding: 50px;
 }
-
 .sobre-nos-style{
     font-family: Roboto-fonte;
     font-size: 20px;
@@ -128,18 +127,18 @@ hr{
     min-width: 250px;
     max-width: 250px;
 }
-
 .servicos-style{
     font-family: Roboto-fonte;
     font-size: 20px;
     margin: 10px;
-    padding: 30px;
+    margin-top: 100px;
+    padding: 40px;
     color: #0EB39E;
     height: 500px;
+    display: flex;
 }
 .img-servicos-style{
-    padding: 20px;
-    float: right;
+    margin-left: 20%;
 }
 .img-servicos-style img{
     box-shadow: 7px 7px 7px #1fd8a480, -4px -5px 7px #1fd8a47e;
@@ -149,10 +148,10 @@ hr{
     background-color: #EEEEEE;
     overflow: auto;
 }
-#titulo2-blog{
+.blog-titulo2{
     font-family: OpenSans-fonte;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     background-color: #0EB39E;
     padding: 30px;
     text-align: center;
@@ -262,33 +261,34 @@ hr{
 
 .agendamento-section{
     background-color: #EEEEEE;
-    height: 680px;
+    height: 720px;
     overflow: auto;
+    display: flex;
 }
-.agendamento-section h2{
+.agendamento-titulo2{
     font-family: OpenSans-fonte;
     color: white;
-    font-size: 50px;
+    font-size: 30px;
     background-color: #0EB39E;
     padding: 50px;
 }
-.agendamento-style{
-    margin: 20px;
+.agendamento-section{
     font-family: Roboto-fonte;
     color: #0EB39E;
-    padding-left: 2rem;
-    gap: 3rem;
+    padding-left: 60px;
     display: flex;
+    padding-top: 40px;
 }
-.agendamento-style legend{
+.agendamento-section legend{
+    margin-top: 25px;
     font-size: 25px;
 }
-.agendamento-style label{
+.agendamento-section label{
     display: block;
     margin-top: 10px;
     font-size: 18px;
 }
-.agendamento-style input{
+.agendamento-section input{
     border: 1px solid #11c08e;
     padding: 8px;
     width: 400px;
@@ -298,11 +298,10 @@ hr{
     outline-color: #0EB39E;
     border-radius: 5px;
 }
-.agendamento-style textarea:hover, .agendamento-style input:hover{
+.agendamento-section textarea:hover, .agendamento-section input:hover{
     border: 1px solid #7ee4c7;
 }
-
-.agendamento-style textarea{
+.agendamento-section textarea{
     border: 1px solid #11c08e;
     max-width: 600px;
     min-width: 416px;
@@ -310,7 +309,7 @@ hr{
     outline-color: #0EB39E;
     border-radius: 5px;
 }
-.agendamento-style button[type="submit"]{
+.agendamento-section button[type="submit"]{
     color: white;
     border: 1px solid #0EB39E;
     font-size: 16px;
@@ -322,19 +321,13 @@ hr{
     width: 100px;
     cursor: pointer;
 }
-.agendamento-style button:hover{
+.agendamento-section button:hover{
     background-color: #4ecca8;
 }
-.agendamento-style-forms{
-    flex: 1;
-}
-.agendamento-style-img{
-    flex: 2;
-    background-image: url(imagens/idosos-fisio-agendamento.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 6px solid #0EB39E;
-    box-shadow: 2px 3px 8px #0EB39E;
+.agendamento-style-img img{
+    margin-top: 30px;
+    margin-left: 30%;
+    border: 3px solid #11c08e;
 }
 .contato-style{
     display: flex;
