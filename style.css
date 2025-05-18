@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 @font-face{
     src: url(fontes/OpenSans-fonte.ttf);
     font-family: OpenSans-fonte;
@@ -288,7 +291,7 @@ hr{
     margin-top: 25px;
     font-size: 25px;
 }
-.agendamento-section label{
+.agendamento-section label, .agendamento-section p{
     display: block;
     margin-top: 10px;
     font-size: 18px;
