@@ -189,6 +189,9 @@ hr{
     font-size: 18px;
     font-family: Roboto-fonte;
 }
+.artigos-blog li{
+    margin-bottom: 20px;
+}
 .artigos-blog a{
     color: #0EB39E;
     text-decoration: none;
@@ -217,8 +220,8 @@ hr{
     margin-left: 50px;
     background-color: #1FD8A4;
     border: solid #1FD8A4;
-    width: 300;
-    height: 200;
+    width: 300px;
+    height: 200px;
 }
 
 .clinica-blog{
