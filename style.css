@@ -14,10 +14,6 @@ html{
     font-family: Roboto-fonte;
 }
 
-body{
-    margin: 0px;
-}
-
 hr{
     margin: 0px;
     border-color: #1fd8a4b2;
@@ -62,6 +58,21 @@ hr{
 }
 .barra-nav li{
     float: left;
+}
+
+#botao-topo{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    background-color: #11c08e;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.85;
+}
+#botao-topo:hover{
+    background-color: #49e0b5;
 }
 
 .home-section{
