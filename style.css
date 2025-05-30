@@ -220,6 +220,18 @@ body{
 .botao-manual-serv:hover{
     background-color: white;
 }
+#radio1-serv:checked ~ .primeiro{
+    margin-left: 0;
+}
+#radio2-serv:checked ~ .primeiro{
+    margin-left: -25%;
+}
+#radio3-serv:checked ~ .primeiro{
+    margin-left: -55%;
+}
+#radio4-serv:checked ~ .primeiro{
+    margin-left: -75%;
+}
 
 .blog-section{
     background-color: #EEEEEE;
