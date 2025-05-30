@@ -35,13 +35,16 @@ hr{
     margin-left: 40%;
 }
 
+.barra-nav{
+    position: sticky;
+    top: 0;
+}
 .barra-nav ul{
     list-style-type: none;
     background-color: #1FD8A4;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    
 }
 .barra-nav a{
     font-family: Roboto-fonte;
