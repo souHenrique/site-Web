@@ -78,6 +78,10 @@ hr{
     background-color: #49e0b5;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .home-section{
     display: flex;
     height: 750px;
@@ -135,9 +139,9 @@ hr{
 
 .servicos-section{
     background-color: #EEEEEE;
-    display: flex;
     overflow: auto;
     font-weight: bold;
+    display: flex;
 }
 .servicos-section h2{
     font-family: OpenSans-fonte;
@@ -162,10 +166,46 @@ hr{
     margin-bottom: 30px;
 }
 .img-servicos-style{
-    margin-left: 20%;
+    margin: 0 auto;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
 }
-.img-servicos-style img{
-    box-shadow: 7px 7px 7px #1fd8a480, -4px -5px 7px #1fd8a47e;
+.slides-img-servicos{
+    width: 400%;
+    height: 450px;
+    display: flex;
+    margin-top: -30;
+}
+.slides-img-servicos input{
+    display: none;
+}
+.slide-servicos{
+    width: 25%;
+    position: relative;
+}
+.slide-servicos img{
+    width: 800px;
+}
+.slides-manual-serv{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.botao-manual-serv{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.botao-manual-serv:not(:last-child){
+    margin-right: 20px;
+}
+.botao-manual-serv:hover{
+    background-color: white;
 }
 
 .blog-section{
