@@ -207,6 +207,19 @@ body{
 .botao-manual-serv:hover{
     background-color: white;
 }
+.botao-manual-serv{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.botao-manual-serv:not(:last-child){
+    margin-right: 20px;
+}
+.botao-manual-serv:hover{
+    background-color: white;
+}
 
 .blog-section{
     background-color: #EEEEEE;
