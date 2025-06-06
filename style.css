@@ -414,7 +414,7 @@ body{
     margin-top: 10px;
     font-size: 18px;
 }
-.agendamento-section input, textarea{
+.agendamento-section input{
     border: 1px solid #11c08e;
     padding: 8px;
     width: 400px;
@@ -434,6 +434,8 @@ body{
     min-height: 100px;
     outline-color: #0EB39E;
     border-radius: 5px;
+    font-family: Roboto-fonte;
+    font-size: 18px;
 }
 .agendamento-section button[type="submitForm"]{
     color: white;
@@ -456,6 +458,13 @@ body{
     border: 3px solid #11c08e;
     box-shadow: 3px 3px 8px #11c08e;
 }
+#confirmacao-agendamento{
+    display: none;
+    padding: 6px;
+    border: 2px solid #0EB39E;
+    border-radius: 7px;
+}
+
 .contato-style{
     display: flex;
     height: 400px;

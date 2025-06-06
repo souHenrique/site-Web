@@ -1,7 +1,7 @@
 const botaoTopo = document.getElementById("botao-topo");
 let count = 1;
-let agendamentoForm = document.getElementById("agendamento-style-forms");
-let submitForm = document.getElementById("submit");
+const agendamentoForm = document.getElementById("agendamento-style-forms");
+const confirmacaoAgend = document.getElementById("confirmacao-agendamento"); 
 
 alert("Bem-vindo à Clínica RM! Explore nossos serviços e agende sua consulta.");
 
@@ -27,5 +27,7 @@ agendamentoForm.addEventListener("submit", function (e) {
     const telefone = document.getElementById("telefone").value;
     const email = document.getElementById("email").value;
     const comentario = document.getElementById("comentario").value;
-    alert("Agendamento concluído");
+    
+    confirmacaoAgend.style.display = "block";
+    e.target.reset();
 });
