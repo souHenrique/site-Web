@@ -1,9 +1,10 @@
 const botaoTopo = document.getElementById("botao-topo");
 let count = 1;
 const agendamentoForm = document.getElementById("agendamento-style-forms");
-const confirmacaoAgend = document.getElementById("confirmacao-agendamento"); 
+const confirmacaoAgend = document.getElementById("confirmacao-agendamento");
+const telefoneAgend = document.getElementById("telefone");
 
-//alert("Bem-vindo à Clínica RM! Explore nossos serviços e agende sua consulta.");
+alert("Bem-vindo à Clínica RM! Explore nossos serviços e agende sua consulta.");
 
 botaoTopo.onclick = function(){
     window.scrollTo({top: 0});
@@ -38,4 +39,21 @@ agendamentoForm.addEventListener("submit", function (e) {
     setTimeout(() => {
         confirmacaoAgend.style.display = "none";
     }, 5000);
+});
+
+telefoneAgend.addEventListener("input", function() {
+    let numero = telefoneAgend. value;
+    numero = numero.replace(/\D/g, "");
+
+    if(numero.length > 11){
+        numero = numero.slice(0, 11);
+    }
+    if(numero.length >= 2 && numero.length <= 6){
+        numero = `(${numero.slice(0, 2)}) ${numero.slice(2)}`;
+    }
+    else if(numero.length > 6) {
+        numero = `(${numero.slice(0, 2)}) ${numero.slice(2, 7)}-${numero.slice(7)}`;
+    }
+
+    telefoneAgend.value = numero;
 });
