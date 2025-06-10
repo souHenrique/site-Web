@@ -4,7 +4,7 @@ const agendamentoForm = document.getElementById("agendamento-style-forms");
 const confirmacaoAgend = document.getElementById("confirmacao-agendamento");
 const telefoneAgend = document.getElementById("telefone");
 
-alert("Bem-vindo à Clínica RM! Explore nossos serviços e agende sua consulta.");
+//alert("Bem-vindo à Clínica RM! Explore nossos serviços e agende sua consulta.");
 
 botaoTopo.onclick = function(){
     window.scrollTo({top: 0});
