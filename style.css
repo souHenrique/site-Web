@@ -501,17 +501,30 @@ body{
 }
 
 @media screen and (max-width: 1020px){
+    .header-style{
+        padding-right: 50px;
+    }
+    .header-style h1{
+        text-align: right;
+    }
+
+    .barra-nav{
+        display: none;
+    }
+
     .home-section{
         flex-direction: column;
         height: auto;
         align-items: center;
     }
-    .home-style2 img{
-        width: 600px;
-        height: 400px;
+    .home-style{
+        padding: 30px;
     }
-
-    .barra-nav{
-        display: none;
+    .home-style2 img{
+        width: 500px;
+        height: 400px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding: 30px;
     }
 }
