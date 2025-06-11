@@ -253,8 +253,8 @@ body{
 
 .blog-section{
     background-color: #EEEEEE;
-    overflow: auto;
     font-weight: bold;
+    height: auto;
 }
 .blog-titulo2{
     font-family: OpenSans-fonte;
@@ -345,8 +345,7 @@ body{
 
 .depoimentos-section{
     background-color: #EEEEEE;
-    overflow: auto;
-    height: 500px;
+    height: auto;
     display: flex;
     font-weight: bold;
 }
@@ -377,7 +376,7 @@ body{
 
 .agendamento-section{
     background-color: #EEEEEE;
-    height: 600px;
+    height: auto;
     overflow: auto;
     display: flex;
     font-family: Roboto-fonte;
@@ -456,7 +455,7 @@ body{
 
 .contato-style{
     display: flex;
-    height: 400px;
+    height: auto;
     background-color: #EEEEEE;
     overflow: auto;
     font-family: Roboto-fonte;
@@ -526,7 +525,7 @@ body{
         padding: 30px;
     }
 
-    .sobre-nos-style{
+    .sobre-nos-style, .artigos-blog{
         flex-direction: column;
     }
 
@@ -555,6 +554,20 @@ body{
     }
 }
 
+@media screen and (max-width: 1500px){
+    .servicos-style{
+        flex-direction: column;
+        height: auto;
+    }
+    .blog-section{
+        padding-bottom: 100px;
+    }
+    .artigos-blog, .videos-blog, .clinica-blog{
+        flex-direction: column;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 800px){
     .img-servicos-style{
         width: 450px;
@@ -572,5 +585,9 @@ body{
     .img-servicos-style img{
         width: 340px;
         height: 300px;
+    }
+
+    .artigos-blog{
+        padding-right: 10px;
     }
 }
