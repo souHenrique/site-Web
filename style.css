@@ -464,6 +464,12 @@ body{
     font-family: Roboto-fonte;
     font-weight: bold;
 }
+.numeros-contato{
+    display: flex;
+}
+#ligacao-contato{
+    margin-left: 40px;
+}
 .contato-style h2{
     font-family: OpenSans-fonte;
     color: white;
@@ -616,13 +622,12 @@ body{
 
     .agendamento-section{
         padding: 20px;
+        text-align: center;
     }
     .agendamento-style-img img{
         width: 350px;
         height: 250px;
-    }
-    #agendamento-style-forms{
-        text-align: center;
+        align-items: center;
     }
     #agendamento-style-forms input{
         width: auto;
@@ -630,5 +635,24 @@ body{
     .agendamento-section textarea{
         min-width: 0px;
         width: 300px;
+    }
+
+    .contato-style{
+        flex-direction: column;
+    }
+    .contato-style h2{
+        max-width: 750px;
+    }
+    .contatos{
+        margin: 20px;
+        padding: 20px;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+    .numeros-contato{
+        flex-direction: column;
+    }
+    #ligacao-contato{
+        margin-left: 50px;
     }
 }
