@@ -35,18 +35,21 @@ hr{
     margin-left: 40%;
 }
 
-.barra-nav{
+.barra-nav-mobile-icone, .barra-nav-mobile{
+    display: none;
+}
+.barra-nav-lista{
     position: sticky;
     top: 0;
 }
-.barra-nav ul{
+.barra-nav-lista ul, .barra-nav-mobile ul{
     list-style-type: none;
     background-color: #1FD8A4;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
-.barra-nav a{
+.barra-nav-lista a, .barra-nav-mobile a{
     font-family: Roboto-fonte;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -56,10 +59,10 @@ hr{
     font-size: 20px;
     font-weight: bold;
 }
-.barra-nav a:hover{
+.barra-nav-lista a:hover, .barra-nav-mobile a:hover{
     background-color: #11c08e;
 }
-.barra-nav li{
+.barra-nav-lista li{
     float: left;
 }
 
@@ -533,11 +536,6 @@ body{
     .header-style h1{
         text-align: right;
     }
-
-    .barra-nav{
-        display: none;
-    }
-
     .home-section{
         flex-direction: column;
         height: auto;
@@ -549,8 +547,7 @@ body{
     .home-style2 img{
         width: 500px;
         height: 400px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        border-radius: 90px;
         padding: 30px;
     }
 
@@ -591,18 +588,46 @@ body{
 }
 
 @media screen and (max-width: 800px){
+    .barra-nav-lista{
+        display: none;
+    }
+    .barra-nav-mobile-icone{
+        display: block;
+        background-color: #0EB39E;
+        text-align: center;
+    }
+    .barra-nav-mobile-icone button{
+        background-color: #0EB39E;
+        width: 100px;
+        height: 30px;
+        font-size: 30px;
+        border: none;
+    }
+    .barra-nav-mobile-icone button:hover{
+        background-color: #29d1bb;
+        cursor: pointer;
+    }
+
+    .home-style2 img{
+        width: 400px;
+        height: 300px;
+        border-radius: 90px;
+    }
+    .servicos-section{
+        text-align: center;
+    }
     .img-servicos-style{
         width: 450px;
         margin-top: 50px;
         margin-left: -40px;
     }
     .slides-manual-serv{
-        width: 350px;
+        width: 420px;
         margin-top: -200px;
     }
     .slides-autom-servicos{
         margin-top: 250px;
-        margin-left: -225px;
+        margin-left: -190px;
     }
     .img-servicos-style img{
         width: 370px;
@@ -642,6 +667,9 @@ body{
     }
     .contato-style h2{
         max-width: 750px;
+    }
+    .contato-style p{
+        font-size: 17px;
     }
     .contatos{
         margin: 20px;
