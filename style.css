@@ -65,6 +65,12 @@ hr{
 .barra-nav-lista li{
     float: left;
 }
+#botao-fechar-barra{
+    background-color: #0EB39E;
+}
+#botao-fechar-barra:hover{
+    background-color: #6eddce;
+}
 
 #botao-topo{
     position: fixed;
@@ -606,6 +612,10 @@ body{
     .barra-nav-mobile-icone button:hover{
         background-color: #29d1bb;
         cursor: pointer;
+    }
+    .barra-nav-mobile.abrir-barra-mobile{
+        display: block;
+        transition: 2s;
     }
 
     .home-style2 img{

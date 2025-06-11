@@ -1,14 +1,23 @@
 const botaoTopo = document.getElementById("botao-topo");
+const botaoBarraMobile = document.getElementById("botao-nav-mobile");
+const barraNavMobile = document.getElementById("barra-nav-mobile");
 let count = 1;
 const agendamentoForm = document.getElementById("agendamento-style-forms");
 const confirmacaoAgend = document.getElementById("confirmacao-agendamento");
 const telefoneAgend = document.getElementById("telefone");
 
-//alert("Bem-vindo à Clínica RM! Explore nossos serviços e agende sua consulta.");
+alert("Bem-vindo à Clínica RM! Explore nossos serviços e agende sua consulta.");
 
 botaoTopo.onclick = function(){
     window.scrollTo({top: 0});
 }
+
+botaoBarraMobile.addEventListener("click", function() {
+    barraNavMobile.classList.add("abrir-barra-mobile");
+})
+barraNavMobile.addEventListener("click", function() {
+    barraNavMobile.classList.remove("abrir-barra-mobile");
+})
 
 document.getElementById("radio1-serv").checked = true;
 setInterval(function(){
