@@ -443,8 +443,11 @@ body{
 .agendamento-style-img img{
     margin-top: 30px;
     margin-left: 30%;
+    margin-bottom: 30px;
     border: 3px solid #11c08e;
     box-shadow: 3px 3px 8px #11c08e;
+    width: 700px; 
+    height: 450px;
 }
 #confirmacao-agendamento{
     display: none;
@@ -495,6 +498,26 @@ body{
     padding: 13px;
     text-align: center;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1500px){
+    .servicos-style{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .blog-section{
+        padding-bottom: 100px;
+    }
+    .artigos-blog, .videos-blog, .clinica-blog{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .agendamento-style-img img{
+        margin-left: 10%;
+        padding: auto;
+    }
 }
 
 @media screen and (max-width: 1020px){
@@ -552,19 +575,12 @@ body{
         width: 900px;
         height: 500px;
     }
-}
 
-@media screen and (max-width: 1500px){
-    .servicos-style{
+    .agendamento-section{
         flex-direction: column;
-        height: auto;
     }
-    .blog-section{
-        padding-bottom: 100px;
-    }
-    .artigos-blog, .videos-blog, .clinica-blog{
-        flex-direction: column;
-        height: auto;
+    .agendamento-style-img img{
+        margin-left: 0px;
     }
 }
 
@@ -583,11 +599,36 @@ body{
         margin-left: -225px;
     }
     .img-servicos-style img{
-        width: 340px;
+        width: 370px;
         height: 300px;
     }
 
     .artigos-blog{
         padding-right: 10px;
+    }
+
+    .depoimentos-section{
+        flex-direction: column;
+    }
+    .depoimentos-section h2{
+        max-width: 750px;
+    }
+
+    .agendamento-section{
+        padding: 20px;
+    }
+    .agendamento-style-img img{
+        width: 350px;
+        height: 250px;
+    }
+    #agendamento-style-forms{
+        text-align: center;
+    }
+    #agendamento-style-forms input{
+        width: auto;
+    }
+    .agendamento-section textarea{
+        min-width: 0px;
+        width: 300px;
     }
 }
